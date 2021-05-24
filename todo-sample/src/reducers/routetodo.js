@@ -1,12 +1,5 @@
 import { ROUTEADDTASK, ROUTEREMOVETASK } from "../actions";
 
-// const initialState = [
-//   { title: "概要作成", flg: false },
-//   { title: "画面設計作成", flg: false },
-//   { title: "詳細設計作成", flg: false },
-//   { title: "コーディング", flg: false },
-//   { title: "テスト", flg: false },
-// ];
 const initialState={todos:[]}
 
 const hoge= (state = initialState, action) => {
