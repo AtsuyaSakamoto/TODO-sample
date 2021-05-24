@@ -1,0 +1,39 @@
+import React from "react";
+
+const TodoDescription = () => {
+  return (
+      <
+    <div>
+      <h2>チケット作成</h2>
+      <ul>
+        <li>
+          <span>
+            チケット名 <input type="text" value="単体テスト"></input>
+          </span>
+        </li>
+        <li>
+          <span>
+            詳細 <textarea name="task" method="post" />
+          </span>
+        </li>
+        <li>
+          <span>
+            担当者 <input type="text"></input>
+          </span>
+        </li>
+        <li>
+          <span>
+            期日 <input type="date"></input>
+          </span>
+        </li>
+        <li>
+          <span>
+            開始日 <input type="date"></input>
+          </span>
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+export default TodoDescription;
