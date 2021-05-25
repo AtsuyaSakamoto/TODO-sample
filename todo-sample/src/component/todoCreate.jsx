@@ -35,8 +35,8 @@ const TodoCreate = () => {
      <p>
                 チケット名
                  <input
-              value={ticket}
              type="text"
+              value={ticket}
                onChange={createTask} /> 
             </p>
             <p>

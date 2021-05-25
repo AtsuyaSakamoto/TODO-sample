@@ -6,6 +6,7 @@ import DisButton from './DisButton'
 const Home = () => {
 const stateTodos=state=>state.routetodo.todos
 const todos=useSelector(stateTodos)
+console.log(todos)
 const dispatch=useDispatch()
   return (
    <React.Fragment>
